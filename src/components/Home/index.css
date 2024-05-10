@@ -1,0 +1,23 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 85vh;
+  padding: 20px;
+}
+.home-img {
+  width: 400px;
+}
+.home-title {
+  color: #6d396b;
+  font-family: 'roboto';
+  font-weight: 500;
+  font-size: 60px;
+  margin-top: 70px;
+}
+@media (min-width: 992px) {
+  .home-img {
+    width: 200px;
+  }
+}
